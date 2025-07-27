@@ -1,0 +1,147 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/flutter_export_environment.sh
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ANDROID BUILD FILES - SHOULD NOT BE SHARED
+android/.gradle/
+android/app/.cxx/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+
+# iOS PLATFORM - COMPLETELY EXCLUDED
+ios/
+Runner.xcodeproj/
+Runner.xcworkspace/
+RunnerTests/
+
+# WEB PLATFORM - COMPLETELY EXCLUDED  
+web/
+
+# WINDOWS PLATFORM - COMPLETELY EXCLUDED
+windows/
+
+# LINUX PLATFORM - COMPLETELY EXCLUDED
+linux/
+
+# MACOS PLATFORM - COMPLETELY EXCLUDED
+macos/
+
+# FIREBASE SENSITIVE FILES - CRITICAL SECURITY
+firebase.json
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/ios/firebase_app_id_file.json
+lib/firebase_options.dart
+lib/FireBaseOptions/firebase_options.dart
+
+# CLOUD FUNCTIONS - BACKEND CODE
+functions/
+
+# ANDROID SIGNING KEYS - CRITICAL SECURITY
+*.jks
+*.keystore
+android/key.properties
+android/local.properties
+
+# BUILD OUTPUTS
+*.aab
+*.apk
+*.ipa
+*.dmg
+*.exe
+*.msi
+
+# DEVELOPMENT FILES
+devtools_options.yaml
+.flutter-plugins-dependencies
+.flutter-plugins
+.metadata
+
+# Android local development files - CRITICAL SECURITY
+android/local.properties
+android/.gradle/
+android/app/.cxx/
+
+# SENSITIVE ENVIRONMENT FILES
+.env
+.env.local
+.env.production
+.env.staging
+
+# LOGS AND TEMP FILES
+*.log
+*.tmp
+temp/
+
+# VERSION CONTROL
+.git/
+.gitignore_global
+
+# IDE AND EDITOR FILES
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/.ropeproject
+
+# FLUTTER TEST COVERAGE
+coverage/
+test/coverage/
+
+# GENERATED FILES
+*.g.dart
+*.freezed.dart
+*.gr.dart
+
+# ASSETS THAT MIGHT BE SENSITIVE
+# assets/config/
+# assets/keys/
+
+# FIREBASE SERVICES FILES THAT CONTAIN SENSITIVE DATA
+lib/services/FireBaseAuthServices.dart
+lib/services/FireBaseStorageService.dart
+lib/services/FireStoreDbServices.dart
+lib/services/FirebaseCMServices.dart
+lib/services/LocalNotificationService.dart
